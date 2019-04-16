@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Title</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="topnav">
+            <a class="active" href="about.html">About</a>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </nav>
+    <h1>Contact</h1>
+    <h2>How do we contact you?</h2>
+
+    <main>
+        <form action="thankyou.html" target="_blank">
+            <p>
+                <label for="how-you-heard">How did you hear about us?</label>
+
+                <select name="how-you-heard" id="how-you-heard">
+                    <option value="email">Email</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="web">Website</option>
+
+                </select>
+            </p>
+
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname"> </p>
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname"> </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+            </p>
+
+            <p>
+                <label for="comments">Comments: </label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+
+
+
+            <div class="radio-buttons">
+                <label for="join-newsletter">Would you like to join our newsletter?</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+
+            </div>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </main>
+</body>
+
+</html>
